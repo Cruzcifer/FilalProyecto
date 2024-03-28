@@ -222,6 +222,29 @@
     </section>
 
 
+    <section class="colorFondo ">
+        <div class="container ">
+            <h2 class="mb-3 centrarTitulo" id="contacto">Formulario de contacto</h2>
+            <form action="/submit_formulario" method="post" class="p-5">            <!--    creacion de un fomulario -->
+                <div class="mb-3">
+                    <label for="nombre" class="form-label text-white">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-white">Asunto:</label>
+                    <input type="text" class="form-control" id="asunto" name="asunto" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label text-white">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
 
 
 
