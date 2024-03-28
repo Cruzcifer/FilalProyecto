@@ -1,9 +1,9 @@
 .colorFondo{
     
-    background-color:black ;
+    background-color:black ;  
 
 }
-.custom-card-style {   /*  color del texto y del card*/
+.custom-card-style {   /*  color del texto y fondo del card*/
     background-color: black;
     color: white;
 }
@@ -20,7 +20,12 @@
 }
 html{
 
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  /* realiza el desplazamiento mas lento*/
+}
+
+.imagen-card{    /* ajusta la imagen del card*/
+
+    height: 32%;
 }
 
 

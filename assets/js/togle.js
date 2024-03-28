@@ -1,6 +1,6 @@
-$(document).ready(function(){       /*funcion togle al hacer click */
-    $('.card-header').click(function() {           
-      $(this).siblings('.card-content').toggle(); 
+$(document).ready(function(){       
+    $('.card-header').click(function() {            /*funcion  al hacer click */
+      $(this).siblings('.card-content').toggle();  /* llama a la funcion toggle */
     });
   });
 
