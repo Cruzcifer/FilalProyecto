@@ -1,3 +1,18 @@
+.colorFondo{
+    
+    background-color:black ;
+
+}
+.custom-card-style {   /*  color del texto y del card*/
+    background-color: black;
+    color: white;
+}
+
+.centrarTitulo{
+
+    text-align: center;
+    color: white;
+}
 
 
 
